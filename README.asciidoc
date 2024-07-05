@@ -1,0 +1,14 @@
+= Nix Workflows
+
+Simple idiomatic flake templates so I don't have to write them 20 times anyways!
+
+== Goals!
+* Keep dependency footprint small
+* Avoid using dependencies for the flake itself, they're templates!
+* Avoid using abstractions for `flake.nix`, they should be added if a project of mine
+is big enough to warrant such.
+
+=== Notes
+
+This repository is MIT licensed, feel free to use this repo if this somehow is useful for
+you, however this repository is meant for my personal usage, so this will appear opinionated.
