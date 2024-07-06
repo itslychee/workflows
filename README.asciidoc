@@ -5,8 +5,8 @@ Simple idiomatic flake templates so I don't have to write them 20 times anyways!
 == Goals!
 * Keep dependency footprint small
 * Avoid using dependencies for the flake itself, they're templates!
-* Avoid using abstractions for `flake.nix`, they should be added if a project of mine
-is big enough to warrant such.
+* Avoid using abstractions for `flake.nix`, they should be added to projects themselves, not my
+templates repository
 
 === Notes
 
